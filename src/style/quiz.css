@@ -1,0 +1,219 @@
+
+
+
+.nezuko-in-basket, .nezuko-in-basket img{
+    height: 0;
+    opacity: hidden;
+  }
+
+.sleepy-nezuko{
+  position: fixed;
+  top: 0;
+  bottom: 0vh;
+  right: 2vh;
+  left: 15vh;  
+  z-index: 3;
+}
+
+.sleepy-nezuko img{
+  height: 14.8vh;
+  width: auto; 
+} 
+
+.quiz-container{
+  display: flex;
+  z-index: 1;
+  flex-direction: column; 
+}
+
+.top-box{
+  display: flex;
+  margin: 1vh;
+
+}
+.top-box p{
+  color: rgba(0,120,240,1);
+  min-width: 10vh;
+  font-family: roboto;
+  font-size: 4.2vh;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  flex-grow: 2;
+  flex-basis: 0;
+  margin-left: 3vh;
+  margin-top: 2vh;
+  margin-right: 1vh;
+}
+.top-box .progress-bar{
+   flex-grow: 3.5;
+  flex-basis: 0; 
+
+}
+
+.image-box{
+  /*background: blue;*/
+  flex-grow: 1;
+  flex-basis: 0;
+  max-height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-box img{
+  width: auto;
+  max-height: 90%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.image-box #speaker{
+  height: auto;
+  width: 30%;
+  margin-top: -5%;
+  bottom: 2vh;
+  margin-left: 65%;
+  background: transparent;
+  border: 0;
+
+}
+
+
+.choice-box{
+  
+  flex-grow: 1;
+  flex-basis: 0;
+  max-height: 48vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.choice-box button{
+
+  flex-grow: 1;
+  font-size: 3vh;
+  border: 1px solid #0078F0;
+  margin: 0.5vh;
+  margin-left: 10%;
+  
+  font-family: roboto;
+  color: #0078F0;
+  width: 80%;
+
+}
+
+
+.choice-box button:focus, .image-box #speaker:focus {
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+
+
+//Hero
+.hero-button{
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.check-box{
+  position: absolute;
+  height: 4vh;
+  width: 4vh;
+  margin-top: -6vh;
+  margin-left: 68%;
+  margin-right: -40px;
+  opacity: 0; 
+  overflow: visible;
+  line-height: 0px;
+}
+
+
+svg .hero-correct{
+  stroke-width: 2;
+  
+  stroke: green;
+  background: red;
+}
+svg polygon{
+  stroke-width: 5;
+  stroke: red;
+
+}
+
+
+.correct-button {
+  background: #e0fef8;
+  transition: 0.5s;
+} 
+
+.correct-button .check-box {
+  margin-left: 60%;
+  opacity: 1;
+  transition: 0.5s;
+
+}
+.incorrect-button .check-box {
+  margin-left: 60%;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.incorrect-button .check-box svg {
+  height: 4vh;
+  /*margin-top: 3vh;*/
+}
+
+.incorrect-button {
+    background: #ff8282;
+    transition: 0.5s;
+} 
+
+.progress-bar, .progress-bar::before, .progress-bar::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+.progress-bar{
+  width: 95%;
+  height: 2em;
+  background: rgba(0,90,180,1);
+  border-radius: 1.5em;
+  color: white; 
+  z-index: 2;
+  margin-left: 2.5%;
+  margin-top: 2%;
+}
+
+.progress-bar::before {
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 1.6em;
+  left: 0.25em;
+  top: 0.2em;
+  bottom: 0.15em;
+  width: calc(var(--width, 0) * 1%);
+  min-width: 1rem;
+  max-width: calc(100% - .5em);
+  background: rgb(0,120,240);
+  background: linear-gradient(90deg, rgba(0,120,240,1) 25%, rgba(255,255,255,1) 100%);
+  border-radius: 1em;
+  padding-left: 1em;
+  /*overflow: hidden;
+  white-space: nowrap;*/
+}
+
+

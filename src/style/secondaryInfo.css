@@ -1,0 +1,33 @@
+.secondary-info{
+	display: flex;
+	justify-content: space-between;
+	width: 540px;
+	color: rgba(0, 120, 240, 0.5);
+
+
+}
+
+.secondary-info-left{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	margin: 0;
+
+
+}
+
+.secondary-info-right {
+	line-height: 3px;
+	color: #093F68;
+
+}
+
+.secondary-info-top-right{
+	font-weight: 700;
+	font-size: 17.9255px;
+}
+
+.secondary-info-top-bottom{
+	font-weight: 400;
+	font-size: 17.9255px;
+}

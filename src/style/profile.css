@@ -1,0 +1,31 @@
+.student-level-big{
+	margin-top: 5px;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 47px;
+	color: #0078F0;
+}
+
+.profile-page{
+	height: 90%;
+}
+
+.single-line-button{
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.single-line-button a{
+	margin-bottom: 10px;
+}
+
+.student-name-buttons-small {
+	width: 300px;
+}
+.student-name-buttons-small .family-member-button{
+	width: 300px;
+	height: 30px;
+	padding-top: 7px;
+	color: #0078F0;;
+}

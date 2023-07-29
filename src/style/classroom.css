@@ -1,0 +1,89 @@
+.classroom-list, .family-member-list{
+	height: 400px;
+	overflow-y: scroll;
+	margin-top: 25px;
+}
+
+
+.classroom-button, .family-member-button, .classroom-member-button{
+	width: 460px;
+	height: 60px;
+	background: rgba(0, 120, 240, 0.02);
+	border: 1px solid rgba(0, 120, 240, 0.05);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 15px;
+
+}
+
+.classroom-button a, .family-member-list a,  .classroom-member-button a{
+
+	font-weight: 500;
+	font-size: 15.3647px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	/* Azul/Default */
+
+	color: #0078F0;
+	margin-left: 15px;
+}
+
+
+/*family member list*/
+
+.family-member-button{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.classroom-page{
+	height: 90%;
+}
+
+.student-list{
+	height: 75vh;
+	overflow-y: scroll;
+}
+
+.classroom-member-button{
+	height: 30px;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+}	
+.classroom-button{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.small-icons{
+	width: 50px;
+	display: flex;
+	margin-right: 21px;
+}
+
+.icon-small{
+	font-size: 26px;
+	color: rgba(0, 120, 240, 0.7);
+	margin-left: 2px;
+
+	justify-self: center;
+}
+#classroom-info-empty{
+	display: none;
+}
+
+.classroom-member-button{
+	height: 40px;
+}

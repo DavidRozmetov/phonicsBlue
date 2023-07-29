@@ -1,0 +1,327 @@
+.login-page{
+	height: 65%;
+	align-self: center;
+	top:  17%;
+}
+
+.login-form, .signup-form{
+
+	position: relative;
+	left: 12%;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input{
+	width: 289px;
+	height: 34px;
+	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17.9255px;
+	line-height: 21px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0, 0, 0, 0.44);
+	margin-bottom: 34px;
+	border: none;
+	border-bottom:  1px solid rgba(0, 0, 0, 0.44);
+}
+
+.page-title{
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+input:focus{
+	outline: none;
+	background: white;
+}
+
+
+
+button{
+	box-sizing: border-box;
+	width: 288.09px;
+	height: 51.22px;
+	background: rgba(0, 120, 240, 0.1);
+	border: 1px solid #0078F0;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #0078F0;
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15.3647px;
+	line-height: 18px;
+}
+
+.secondary-buttons{
+	margin-top: 30px;
+	width: 350px;
+}
+
+.login-form .secondary-buttons{
+	display: flex;
+	justify-content: space-between;
+}
+
+.secondary-buttons a, .secondary-button{
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17.9255px;
+	line-height: 21px;
+	/* identical to box height */
+
+	color: rgba(0, 120, 240, 0.44);
+
+}
+
+
+/*//Sign Up*/
+
+.signup-page{
+	top: 13%;
+	height: 80%;
+}
+
+.user-id, .classroom-id{
+
+width: 289px;
+height: 26px;
+visibility: hidden;
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17.9255px;
+line-height: 21px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.44);
+
+}
+
+.role-options{
+	display: flex;
+	width: 350px;
+	justify-content: space-between;
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17.9255px;
+	line-height: 21px;
+	/* identical to box height */
+	color: rgba(0, 0, 0, 0.44);
+}
+
+
+.role-options input{
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+	margin-top: -1px;
+}
+
+.role-options .role-option{
+	display: flex;
+}
+
+
+.input-with-icon{
+	display: flex;
+}
+
+
+.icon-small{
+	font-size: 26px;
+	color: rgba(0, 120, 240, 0.44);
+	margin-left:  -32px;
+	margin-top: 7px;
+}
+
+#btn-hide-password{
+	display: none;
+}
+
+/*//Forgot Password*/
+
+.forgot-password-page{
+	height: 60%;
+	top: 17%;
+}
+
+.forgot-password-form p{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+/*Create a classroom*/
+.create-classroom-page{
+	height: 60%;
+	top: 17%;
+}
+
+
+
+/*Join a classroom*/
+.join-classroom-page{
+	height: 70%;
+	top: 15%;
+}
+
+.label-input{
+	width: 450px;
+	display: flex;
+	align-items: center;
+	vertical-align: bottom;
+}
+.label-input label{
+	font-size: 21px;
+	padding-bottom: 30px;
+	margin-right: px;
+	width: 172px;
+}
+
+
+
+.instructions{
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+.classroom-info{	
+	width: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+
+	list-style-type: none; /* Remove bullets */
+  	padding: 0; /* Remove padding */
+	margin-bottom: 50px;
+	display: none;
+}
+
+.student-info-empty{
+	display: none;
+}
+.button-add-student{
+	display: none;
+}
+
+.classroom-info li{
+	flex-basis: 100px;
+	flex-grow: 2;
+}
+
+
+
+/*Delete Classroom*/
+.delete-classroom-button{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: center;
+}
+
+.delete-classroom-button a{
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17.9255px;
+	line-height: 21px;
+	/* identical to box height */
+
+	color: rgba(0, 120, 240, 0.44);
+
+	
+	text-align: center;
+
+}
+
+.i-am-a{
+	text-align: left;
+	width: 80%;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: rgba(0, 0, 0, 0.44);
+}
+
+
+.level-buttons{
+	display: flex;
+	flex-direction: column;
+}
+
+.level-button{
+	margin: 1vh;
+	flex-grow: 1;
+	height: 8vh;
+	width: 30vw
+}
+
+.question-buttons{
+	text-decoration: none;
+}
+.question-button{
+	width: 500px;
+	display: flex;
+	justify-content: space-evenly;
+	background: rgba(0, 120, 240, 0.1);
+	padding: 1vh;
+	padding-right: 3vw;
+	text-decoration: none;
+}
+
+.question-button img{
+	width: 5vw;
+}
+.question-buttons a{
+	color: transparent;
+}
+
+.question-button li{
+	list-style-type: none;
+	font-size: 24px;
+	text-decoration: none;
+	align-self: center;
+	border:  solid 1px rgba(0, 120, 240, 0.44);
+	padding: 1vh 3vh;
+	border-radius: 1vh;
+	color: rgba(0, 120, 240, 1);
+}
+
+.question-button .correct {
+	background: #e0fef8;
+	color:  #507b59;
+	border-color: rgba(0, 120, 0, 0.44);
+}
+
+.icon-delete-question{
+	margin-right: 1vh;
+	fill: rgba(120, 25, 20, 1.0);
+
+}
+
+.home-page{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.home-page .primary-button{
+
+	width: 400px;
+}
+
+.home-page h1{
+	display: block;
+
+}

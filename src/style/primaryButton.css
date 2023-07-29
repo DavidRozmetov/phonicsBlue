@@ -1,0 +1,38 @@
+.primary-button{
+  background: rgba(0, 120, 240, 0.1);
+  border: 1px solid #0078F0;
+  border-radius: 10px;
+  width: 240px;
+  height: 69px;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  color: #0078F0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.3647px;
+  line-height: 18px;
+
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.primary-button a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.primary-button .icon{
+    font-size: 20px;
+    line-height: 0px;
+    float: right;
+    margin-right: 2vw;
+}
+
+
+
+
